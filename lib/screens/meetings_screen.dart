@@ -42,22 +42,6 @@ class MeetingsScreen extends StatelessWidget {
                 text: "Join Meeting",
                 onPressed: () => joinMeeting(context),
               ),
-
-              HomeMeetingButton(
-                icon: Icons.calendar_today,
-                text: "Schedule",
-                onPressed: (){
-                  
-                },
-              ),
-
-              HomeMeetingButton(
-                icon: Icons.arrow_upward_rounded,
-                text: "Share Screen",
-                onPressed: (){
-                  
-                },
-              )
             ],
           ),
         ),
